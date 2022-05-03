@@ -19,6 +19,7 @@ a:hover {
 /* hero1 first section */
 
 #container {
+  margin: auto;
   max-width: 1170px;
 }
 #hero1 {
