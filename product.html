@@ -13,6 +13,7 @@
         font-family: "Poppins", sans-serif;
         margin: 0;
         padding: 0;
+        user-select: none;
       }
       a {
         color: #222222;
@@ -30,7 +31,7 @@
         justify-content: space-between;
         align-items: flex-start;
         width: 90%;
-        margin: 40px auto;
+        margin: 60px auto;
       }
       #hero1 > * {
         padding: 0px 20px;
@@ -59,6 +60,68 @@
         color: #636363;
         margin-bottom: 20px;
       }
+      #plans > h4 {
+        font-weight: 700;
+        margin-bottom: 2px;
+      }
+      #plans > div {
+        margin-bottom: 30px;
+      }
+      #plans > div label {
+        padding-right: 10px;
+      }
+      #plans input[type="radio"]:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -3px;
+        position: relative;
+        background-color: #d1d3d1;
+        content: "";
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+      }
+
+      #plans input[type="radio"]:checked:after {
+        width: 15px;
+        height: 15px;
+        border-radius: 15px;
+        top: -2px;
+        left: -3px;
+        position: relative;
+        background-color: #e5b960;
+        content: "";
+        display: inline-block;
+        visibility: visible;
+        border: 2px solid white;
+        transition: 200ms;
+      }
+      #plans input[type="number"] {
+        padding: 5px;
+        width: 90px;
+        height: 35px;
+        text-align: center;
+        border: 1px solid #e4e6eb;
+        font-size: 20px;
+      }
+      #plans button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        font-size: 18px;
+        font-weight: 400;
+        color: #ffffff;
+        background-color: #0d0d0d;
+        margin-top: 10px;
+      }
+      #plans button:hover {
+        cursor: pointer;
+        transition: 200ms;
+        background-color: #e5b960;
+      }
     </style>
   </head>
   <body>
@@ -75,18 +138,19 @@
             Phew, it's getting hot in here! Unveil the midsummer madness with
             the hottest beauty staples inside the...
           </p>
-          <form id="plans">
+          <div id="plans">
+            <h4>Plans</h4>
             <div>
-              <input type="radio" id="plan1" name="price" />
+              <input type="radio" id="plan1" name="price" checked />
               <label for="plan1">1 month</label>
 
               <input type="radio" id="plan2" name="price" />
               <label for="plan2">3 months</label>
             </div>
 
-            <input type="number" value="1" name="quantity" />
-            <button type="submit">Add to cart</button>
-          </form>
+            <input type="number" min="1" value="1" name="quantity" />
+            <button id="cart">Add to cart</button>
+          </div>
         </div>
       </div>
       <div id="product-tabs">
