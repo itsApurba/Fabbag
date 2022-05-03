@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Awesome Shoping Cart</title>
+    <link rel="stylesheet" href="cart.css" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="cart">
+        <h1 class="title">My Cart</h1>
+        <div id="inner-container">
+          <div id="products">
+            <div class="product"">
+            <h3 class="self-align-start">Product</h3>
+            <h3>QTY</h3>
+            <h3>Price</h3>
+          </div>
+          <div class="product">
+            <div class="desc">
+              <img src="img/Makeup-Reveal-1.gif" alt="Product description" />
+              <div class="title">The AweSummer May Fab Bag New item</div>
+            </div>
+            <div class="qty">
+              <input type="number" id="qty" min="0" />
+            </div>
+            <div class="price">Rs. 1900.00</div>
+          </div>
+        </div>
+        <div id="price">
+          <div class="total">
+            <h2>total price :</h2>
+            <h2>Rs. 1,198.00</h2>
+          </div>
+          <button id="update-cart">Update Cart</button>
+          <button id="checkout">check out</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
