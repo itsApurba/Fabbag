@@ -8,83 +8,169 @@
     <title>Create Account-FAB BAG</title>
     <link rel="stylesheet" href="sign-up.css" />
     <script src="https://kit.fontawesome.com/f2c1b034f7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
 </head>
 
 <body>
-    <div>
-
-        <form id="form">
-            <h1>Create An Account</h1>
-            <div id="social-login">
-                <div class="facebook">
-                    <a
-                        href="https://www.facebook.com/login.php?skip_api_login=1&api_key=186540904872520&kid_directed_site=0&app_id=186540904872520&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv3.2%2Fdialog%2Foauth%3Fclient_id%3D186540904872520%26state%3Dd8f764e252366f73c330556070c70c7d%26response_type%3Dcode%26sdk%3Dphp-sdk-5.4.4%26redirect_uri%3Dhttps%253A%252F%252Fsocial-login.oxiapps.com%252Fauth%252Ffacebook%26scope%3Demail%26display%3Dpopup%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D45d3aa2e-349c-4736-8b2d-328ad4a4d0b0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fsocial-login.oxiapps.com%2Fauth%2Ffacebook%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3Dd8f764e252366f73c330556070c70c7d%23_%3D_&display=popup&locale=en_GB&pl_dbl=0">Sign
-                        in with Facebook
-
-                    </a>
-                    <i class="fa-brands fa-facebook-f"></i>
-                </div>
-                <div class="google">
-                    <a
-                        href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&redirect_uri=https%3A%2F%2Fsocial-login.oxiapps.com%2Fauth%2Fgoogle&client_id=288380117484-av3a09rtmk27647k47ad2ui45lohki5g.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&access_type=online&approval_prompt=auto&flowName=GeneralOAuthFlow">Sign
-                        In with Google</a>
-                    <i class="fa-brands fa-google"></i>
-                </div>
-            </div>
-            <div id="user-input">
-                <div id="first_name-div">
-                    <p class="input-hed">
-                        First Name
-                        <em>*</em>
-                    </p>
-
-                    <input id="first_name" type="text" />
-                </div>
-                <div id="last_name-div">
-                    <p class="input-hed">
-                        Last Name <em>*</em>
-                    </p>
-                    <input id="last_name" type="text" />
-                </div>
-                <div id="email-div">
-                    <p class="input-hed">
-                        Your Email Address
-                        <em>*</em>
-                    </p>
-
-                    <input id="email" type="email" />
-                </div>
-                <div class="password-div">
-                    <p class="input-hed"> Your Password
-                        <em>*</em>
-                    </p>
-
-                    <input id="Password" type="password" />
-                </div>
-            </div>
-            <div id="datastore">
-                <div id="creat-account">
-                    <p>
-                        <input id="submit" type="submit" value="Create an Account" />
-                    </p>
-                </div>
-                <div>
-
-                    <p id="hr-login">
-                        <span>-------------------------- Or --------------------------</span>
-                    </p>
-
-                </div>
-
-                <div id="sign-up">
-
-                    Sign In
-
-                </div>
-            </div>
-        </form>
-
+    <div id="top">AVAILABLE NOW - THE AWESUMMER MAY FAB BAG!</div>
+    <!--  Navbar Section -->
+    <div id="navbar">
+        <span class="subscribe">SUBSCRIBE NOW</span>
+        <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO_96ac9306-4c81-4ab8-8d2b-4e818eed7f76_2048x.png?v=1606482289"
+            alt="fabbag">
+        <div class="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="">
+                <i class="fa-solid fa-heart"></i>
+            </a>
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-plus"></i>
+        </div>
     </div>
+    <form id="form">
+        <h1>Create An Account</h1>
+        <div id="social-login">
+            <div class="facebook">
+                <a
+                    href="https://www.facebook.com/login.php?skip_api_login=1&api_key=186540904872520&kid_directed_site=0&app_id=186540904872520&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv3.2%2Fdialog%2Foauth%3Fclient_id%3D186540904872520%26state%3Dd8f764e252366f73c330556070c70c7d%26response_type%3Dcode%26sdk%3Dphp-sdk-5.4.4%26redirect_uri%3Dhttps%253A%252F%252Fsocial-login.oxiapps.com%252Fauth%252Ffacebook%26scope%3Demail%26display%3Dpopup%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D45d3aa2e-349c-4736-8b2d-328ad4a4d0b0%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fsocial-login.oxiapps.com%2Fauth%2Ffacebook%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3Dd8f764e252366f73c330556070c70c7d%23_%3D_&display=popup&locale=en_GB&pl_dbl=0">Sign
+                    in with Facebook
+
+                </a>
+                <i class="fa-brands fa-facebook-f"></i>
+            </div>
+            <div class="google">
+                <a
+                    href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?response_type=code&redirect_uri=https%3A%2F%2Fsocial-login.oxiapps.com%2Fauth%2Fgoogle&client_id=288380117484-av3a09rtmk27647k47ad2ui45lohki5g.apps.googleusercontent.com&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&access_type=online&approval_prompt=auto&flowName=GeneralOAuthFlow">Sign
+                    In with Google</a>
+                <i class="fa-brands fa-google"></i>
+            </div>
+        </div>
+        <div>
+            <label for=""> First Name <em>*</em></label>
+            <input id="first_name" type="text" />
+        </div>
+        <div>
+            <label for=""> Last Name <em>*</em></label>
+            <input id="last_name" type="text" />
+        </div>
+        <div>
+            <label for="">Your Email Address<em>*</em></label>
+            <input id="email" type="email" />
+        </div>
+        <div>
+            <label for="">Your Password<em>*</em></label>
+
+            <input id="Password" type="password" />
+        </div>
+
+        <input id="submit" type="submit" value="Create an Account" />
+
+
+        <p id="hr-login">
+            <span>-------------------------- Or --------------------------</span>
+        </p>
+
+        <p id="sign-up">
+            Sign Im
+        </p>
+        </div>
+    </form>
+    <footer id="container1">
+        <div id="footer-container">
+            <span class="footer">
+                <h3 class="information">INFORMATION</h3>
+                <ul class="content">
+                    <li>
+                        <a href="">
+                            <span>About Us</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Associated Brands</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>FAQ</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Collaborate with FAb Bag</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Contact Us</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Return & Refunds</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Terms & Conditions</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>Privacy Policy</span>
+                        </a>
+                    </li>
+                </ul>
+            </span>
+            <span class="footer2">
+                <h3 class="information">CUSTOMER CARE</h3>
+                <span class="customercare">
+                    <h5 class="detail">Call :
+                        <a href="tel : 022-6805-6010">
+                            <span>&nbsp;</span>
+                            <b>022-6805-6010</b>
+                            <span>&nbsp;</span>
+                        </a>
+                        <span>
+                            <br>
+                            (Monday to Friday : 9AM - 7PM)
+                        </span>
+                    </h5>
+                    <h5>
+                        Mail :
+                        <a href="mailto:crew@fabbag.com">crew@fabbag.com</a>
+                    </h5>
+                </span>
+
+
+            </span>
+
+            <span class="newsletter">
+                <h3 class="information">Newsletter</h3>
+                <span>Signup for the latest offers, updates and news <br> </span>
+                <input type="email" placeholder="Your email address" id="email">
+                <input type="submit" id="btn"> <br>
+                <span class="spam">Don't worry we don't spam</span>
+            </span>
+        </div>
+
+        <!-- social media handle -->
+        <div class="socialmedia">
+            <a href="https://www.facebook.com/fabbag" target="_blank" id="facebook">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="https://twitter.com/thefabbag" target="_blank" id="twitter">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/thefabbag/" target="_blank" id="instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/fabbag" target="_blank" id="youtube">
+                <i class="fa-brands fa-youtube"></i>
+            </a>
+        </div>
+        <p class="disclaimer">Copyright 2021 fabbag.com classAll rights reserved</p>
+    </footer>
 </body>
 
 </html>
