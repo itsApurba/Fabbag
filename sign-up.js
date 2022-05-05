@@ -1,17 +1,16 @@
 document.querySelector("#form").addEventListener("submit",addPerson);
-var personArr=JSON.parse(localStorage.getItem("personData")) || []
+var personArr=JSON.parse(localStorage.getItem("personData")) || [];
 function addPerson(){
     event.preventDefault();
     var personObj={
-        firstName:form.first_name.value,     
-        lastName:form.last_name.value,
+        fistName:form.firstName.value,
+        lastName:form.lastName.value,
         email:form.email.value,
-        password:form.Password.value,
-       
+        password:form.password.value,
     }
-    console.log(personObj)
     personArr.push(personObj);
     localStorage.setItem("personData",JSON.stringify(personArr))
-    console.log(personArr)
-    // window.location.href="./matches.html";
+    alert("Congratulation\ Your Account Is Created Successfully");
+   
+    form.reset()
 }
