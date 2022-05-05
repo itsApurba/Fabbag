@@ -1,4 +1,4 @@
-document.querySelector("#form").addEventListener("submit",addMatch);
+document.querySelector("#form").addEventListener("submit",addPerson);
 var personArr=JSON.parse(localStorage.getItem("personData")) || []
 function addPerson(){
     event.preventDefault();
@@ -10,7 +10,7 @@ function addPerson(){
        
     }
     personArr.push(personObj);
-    localStorage.setItem("personData",JSON.stringify(matchArr))
+    localStorage.setItem("personData",JSON.stringify(personArr))
     
     // window.location.href="./matches.html";
 }
