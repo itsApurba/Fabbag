@@ -60,8 +60,8 @@ img{
 }
 
 #form {
-  width: 400px;
-  border: 1px solid rgb(230, 230, 230);
+  width: 380px;
+
   margin: 3% auto;
   padding: 3%;
   background: white;
@@ -290,23 +290,34 @@ b{
 
 }
 #btn{
-    height: 40px;
-    width: 106.36px;
-    margin: 0px 0px 0px -1px;
+    height: 35px;
+    width: 27%;
+    margin: 5px 5px 0px -1px;
     padding: 0px 16px;
-    border-radius: 10px;
+    border-radius: 8px;
     color: white;
     background-color: #e5b95f;
+    border: none;
    
 }
-/* #email{
-    width: 245px;
-    height: 40px;
-    margin: 0px 0px 0px -9px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-radius: 10px;
+#btn:hover{
+    background-color: #161616;
+    color: white;
+}
+#email-sub{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+#email_foot{
+    width: 55%;
+    height: 35px;
+    margin: 4px 0px 0px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+    border: none;
    
-} */
+}
 .spam{
     width: 165.73px;
     height: 17px;
