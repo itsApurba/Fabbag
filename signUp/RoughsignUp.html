@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" id="form">
+        <p>Email</p>
+        <input type="text" placeholder="Enter your email" id="mail">
+        <p>password</p>
+        <input type="text" placeholder="Enter your password" id="pass">
+        <input type="submit" value="Submit" class="addInfo">
+        <a href="signIn.html">Go to sign In page</a>
+    </form>
+</body>
+
+</html>
+<script>
+    document.querySelector("#form").addEventListener("submit", addData)
+
+    var dataArr =  []
+
+    function addData() {
+        event.preventDefault()
+
+        var dataObj = {
+             eMail: document.querySelector("#mail").value,
+             passWord : document.querySelector("#pass").value,
+        }
+        if( document.querySelector("#mail").value== "" || document.querySelector("#pass").value == "" )
+        {
+            alert("Please enter all the credential")
+        }
+        else{
+            dataArr.push(dataObj)
+            console.log(dataArr)
+            localStorage.setItem("data",JSON.stringify(dataArr))
+            alert("Process is done")
+            window.location.href = "signIn.html"    
+        }
+    }
+</script>
