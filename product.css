@@ -1,5 +1,43 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&family=Roboto:wght@300&display=swap");
 
+/* navbar section */
+#navbar {
+  height: 70px;
+  width: 94%;
+  margin: auto;
+  padding: 0 3%;
+  background-color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.subscribe {
+  color: #e5b95f;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.subscribe:hover {
+  transition: 200ms;
+  color: rgb(228, 54, 54);
+}
+img {
+  height: 50x;
+  width: 188.56px;
+  cursor: pointer;
+}
+.search i {
+  margin-left: 20px;
+  height: 16px;
+  color: #e5b95f;
+  /* padding: 0px 10px; */
+  font-size: 16px;
+  cursor: pointer;
+}
+
 * {
   transition: 50ms;
   outline: none;
