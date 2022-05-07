@@ -5,26 +5,216 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fabbag</title>
+    <title>FAB BAG</title>
+    <link rel="icon" type="image/x-icon" href="https://scontent.cdninstagram.com/v/t51.2885-15/280078594_1223755911761497_2934819991498115476_n.jpg?_nc_cat=110&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=8fSR2to5lwsAX9Teh9F&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-VC0LPdfaELeP2zh7MiA0Hi9ZoYJfYMG96hIRtA0CIbA&oe=627BAA43">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
-</head>
+
+  </head>
 <body>
-    <div id="top">AVAILABLE NOW - THE AWESUMMER MAY FAB BAG!</div>
-   <!--  Navbar Section -->
-    <div id="navbar">
+    <div class="show">
+          <p class="top">AVAILABLE NOW - THE AWESUMMER MAY FAB BAG!</p>
+          
+    </div>
+  
+    <!--  Navbar Section -->
+   
+     <header id="navbar">
         <span class="subscribe">SUBSCRIBE NOW</span>
         <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO_96ac9306-4c81-4ab8-8d2b-4e818eed7f76_2048x.png?v=1606482289" alt="fabbag">
         <div class="search">
         <i class="fa-solid fa-magnifying-glass"></i>
-        <a href="">
+        <a href="#">
             <i class="fa-solid fa-heart"></i>
         </a>
+
+
+
+        <div class="action">
+            <div class="profile" onclick="menuToggle();">
                 <i class="fa-solid fa-user"></i>
-        <i class="fa-solid fa-cart-plus"></i>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li> <a href="#"> Languages : En Fr</a> </li>
+                    <li> <a href="#"> Checkout</a> </li>
+                    <li> <a href="#"> Signin</a> </li>
+                    <li> <a href="#">Create An Account </a> </li>
+                </ul>
+            </div>
+        </div>
+                <!-- <i class="fa-solid fa-user"></i> -->
+        <i id="cart" class="fa-solid fa-cart-plus"></i>
+        </div>
+    </header>
+
+    <!-- slide image -->
+    <div id="Bigmain">
+        <div class="bigimage">
+            <img class="banner" src="img/img1.jpg" alt="">
+    
+        </div>
+        <div class="bigimage">
+            <img class="banner" src="img/img2.jpg" alt="">
+    
+        </div>
+        <div class="bigimage">
+            <img  class="banner" src="img/img3.jpg" alt="">
+    
+        </div>
+            
+            <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+            <span class="arrow next" onclick="controller(-1)">&#10095;</span>
+        </div>
+
+        <!-- what's in the bag -->
+    
+    <div class="whatheading">
+        <h1>WHAT'S IN THE BAG</h1>
+        <hr>
+    </div>
+    <div class="product"> 
+        <button class="pre-btn"><img src="img/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="img/arrow.png" alt=""></button>
+        <div class="product-container">
+           
+            <div class="product-card">
+               
+                
+                <div class="img">
+                    <img class="image" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Makeup-1_f948e4f7-8ffd-41c9-9c87-d0edd62452b9_2048x.png?v=1651344527" alt="">
+        
+                </div>
+                <p>LIQUID HIGHLIGHTER OF YOUR CHOICE!*</p>
+            </div>
+            <div class="product-card">
+                
+                <div class="img">
+                    <img class="image" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Makeup-2_b1d2533b-4810-4f7e-9321-7d0cca0b019f_2048x.png?v=1651344579" alt="">
+        
+                </div>
+                <p>LIQUID LIPSTICK OF YOUR CHOICE!*</p>
+            </div>
+            <div class="product-card">
+                
+                <div class="img">
+                    <img class="image" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Skincare-1_cf1f2eb6-e64c-4dcb-af8b-f80963cceddd_2048x.png?v=1651344625" alt="">
+        
+                </div>
+                <p>HAIRCARE DUO</p>
+            </div>
+            <div class="product-card">
+                
+                <div class="img">
+                    <img class="image" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Skincare-2_2_2048x.png?v=1651466768" alt="">
+        
+                </div>
+                <p>ORGANIC SOAP</p>
+            </div>
+            <div class="product-card">
+                
+                <div class="img">
+                    <img class="image" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Bonus_2048x.gif?v=1651344727
+                    style bag" alt="">
+        
+                </div>
+                <p>BONUS*</p>
+            </div>
+            
+            
         </div>
     </div>
 
+    <!-- subscription -->
+    
+        <div id="Subscription">
+            <h1>SUBSCRIPTION</h1>
+            <hr>
+            <div id="subsbox">
+            <div class="Subs1">
+                <div>
+                    <h3>1 MONTH</h3>
+                    <P>SUBSCRIPTION</P>
+                </div>
+                <div>
+                    <h3>RS. 599.00</h3>
+                    <p>/per month</p>
+                </div>
+                <div class="adcart1">
+                    <h4>ONE TIME PAYMENT</h4>
+                    <h3>RS. 599.00</h3>
+                    <div class="BTN1">
+                        <button class="chngcolor">ADD TO CART</button>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="Subs2">
+                <div>
+                    <h3>1 MONTH</h3>
+                    <P>SUBSCRIPTION</P>
+                </div>
+                <div>
+                    <h3>RS. 599.00</h3>
+                    <p>/per month</p>
+                </div>
+                <div class="adcart2">
+                    <h4>ONE TIME PAYMENT
+                        (11% OFF)</h4>
+                    <h3>RS. 1,599.00</h3>
+                    <p>RS. 1,797</p>
+    
+                    <div class="BTN">
+                        <button>ADD TO CART</button>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        
+        <!-- prevBag -->
+    
+        </div>
+        <div id="prevBag">
+            <h3>PREVIOUS BAGS</h3>
+            <hr>
+            <div id="Bags">
+            <div class="bag">
+                <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal-3_1728264b-2e0f-4314-9a3c-0fde458d72a7.png?v=1649483317" alt="">
+                <p>Apr'22 The Sassy Spring Fab Bag</p>
+                <p>from Rs 599.00</p>
+            </div>
+            <div class="bag">
+                <img src=  "https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal-3.png?v=1646971494" alt="">
+                <p>Mar'22 The Empow-HER Fab Bag</p>
+                <p>from Rs 599.00</p>
+            </div>
+            <div class="bag">
+                <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal-2.gif?v=1644395072" alt="">
+                <p>Feb'22 The Colour Me Cupid Fab Bag</p>
+                <p>from Rs 599.00</p>
+            </div>
+            <div class="bag">
+                <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal--3.png?v=1641707966" alt="">
+                <p>Jan'22 The Beauty Resolution Fab Bag</p>
+                <p>from Rs 599.00</p>
+            </div>
+            <div class="bag">
+                <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-3.gif?v=1638191014" alt="">
+                <p>Dec'21 The X-Must Haves Fab Bag</p>
+                <p>from Rs 599.00</p>
+            </div>
+            <div class="bag">
+                <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner--Skincare-Reveal-4_1.gif?v=1636696484" alt="">
+                <p>Nov'21 The Diva-Li_Cious Fab Bag</p>
+                <p><strike>Rs. 1,797.00</strike></p>
+                <p>from Rs 599.00</p>
+            </div>
+           </div>
+        </div>
+
+   
+    
     <!-- TESTINOIALS -->
 
   <div id="testimonials">
@@ -35,11 +225,13 @@
   <!-- <div class="container"> -->
            
     <div class="swiper">
+       <!-- <img src="Testimonials.webp" alt="testimonials"> -->
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
+         
           <!-- Slides -->
           <div class="swiper-slide">
-            <i class="fa fa-quote-left" aria-hidden="true"></i> 
+            <span class="quote-icon">  <i id="quote1" class="fa fa-quote-left" aria-hidden="true"></i> </span>
             <p class="text" >
                 I love each and every Fab Bag that I receive each month past
                  three years. I am so much in love with fab bags and all the lovely <br>
@@ -48,7 +240,7 @@
             </p>
           </div>
           <div class="swiper-slide">
-            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <span class="quote-icon">  <i id="quote2" class="fa fa-quote-left" aria-hidden="true"></i></span>
             <p class="text">I've been a regular Fab bag subscriber for many years now and I 
                  must say that the Fab Bag team comes up with something or <br>
                   the other as a special attraction in the bag every month. As 
@@ -57,7 +249,7 @@
 
           </div>
           <div class="swiper-slide">
-            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <span class="quote-icon">  <i id="quote3" class="fa fa-quote-left" aria-hidden="true"></i></span>
             <p class="text">
                 I like that fact that they offer high-quality products. Every single 
                 product from the bag stands out. It is a MUST TRY for every girl  <br>
@@ -66,7 +258,8 @@
         </p>
           </div>
           <div class="swiper-slide">
-            <i class="fa fa-quote-left" aria-hidden="true"></i>
+          
+            <span class="quote-icon"> <i id="quote4" class="fa fa-quote-left" aria-hidden="true"></i></span>
             <p class="text">
                 I am highly impressed with the idea of surprising the customers 
                  by leaving them to guess, whats inside the Bag. Surprises brings  <br>
@@ -77,7 +270,8 @@
                  </p>
           </div>
           <div class="swiper-slide">
-            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <span class="quote-icon">
+                <i id="quote5" class="fa fa-quote-left" aria-hidden="true"></i></span>
             <p class="text">
                 This is my second month and I am already addicted. Can't wait  
                  for my third bag. It feels like someone wiht so much love who loves <br>
@@ -88,7 +282,9 @@
 
           </div>
           <div class="swiper-slide">
-            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <span class="quote-icon">
+                <i id="quote6" class="fa fa-quote-left" aria-hidden="true"></i>
+               </span>
             <p class="text">
                 Who dosen't want to get pampered? And this bag is all you need 
                  when you want to show some extra love to yourself. Every other <br>
@@ -100,7 +296,7 @@
 
           </div>
           <div class="swiper-slide">
-            <i  class="fa fa-quote-left" aria-hidden="true"></i>
+            <span class="quote-icon">   <i id="quote7" class="fa fa-quote-left" aria-hidden="true"></i></span>
             <p class="text">
                 I am getting addicted to Fab Bag's. the first one I had ordered 
                  was simply to check it out as my friend had recommended. I am not <br>
@@ -114,7 +310,7 @@
             </p>
           </div>
           <div class="swiper-slide">
-            <i class="fa fa-quote-left" aria-hidden="true"></i>
+            <span class="quote-icon"><i id="quote8" class="fa fa-quote-left" aria-hidden="true"></i></span>
             <p class="text">
                 The products are amazing and I am just in love with the bag!
                  Kudos to you team! <br>
@@ -151,45 +347,115 @@
     </a>
 </div> -->
 
+<!-- instafeed -->
+
+<div class="instagram">
+    <h>#TRENDINGNOW AT THE GOSSIP CORNER</h3>
+    <div class="instacards">
+ 
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279842470_293278966335801_7431247082036908895_n.jpg?_nc_cat=111&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=uUEqzjrrD5gAX-f1R7T&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9tG3SHiM-ZVIrtgLwxICMjFPY_EyJel1pIs7GYJwcgfQ&oe=627A8097" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279763268_532493598580918_2309645971247741063_n.jpg?_nc_cat=102&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=qtKpF1bQlmEAX9PX1mL&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_WxbedXj4qA4urv6SORsOlowcOqHQIp3ZAjSwIEvUDMw&oe=627991FF" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/280078594_1223755911761497_2934819991498115476_n.jpg?_nc_cat=110&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=8fSR2to5lwsAX9Teh9F&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT90tyAeRmjyXuluj6fzQZNGnrKuwq6vgJ1jgd5MURDDiQ&oe=6279B003" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279690442_531630221670430_7682245722290914391_n.jpg?_nc_cat=108&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=NcQAe4tmzMAAX8D2Zk3&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9pfJHHrYwW-8eaRQ8gXNhV8Fuz066gfp4ssS-ioAA2WA&oe=6278B165" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279754469_728802825086106_2659596606794103187_n.jpg?_nc_cat=102&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=Op5nrgvIob0AX8oQDN4&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_S_XbkfTzACDnJFcVtd1-LJFJQzZ3vtwTDE06M3yH3VA&oe=627A3B82">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279581933_497215932094707_6136128380394766149_n.jpg?_nc_cat=108&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=I7kXhal58ywAX8l2t-q&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8EJm_nWInIKJoHlUYRPbaYW9Afe5UxV-8JuJR1zCf7XQ&oe=62790492" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279573265_1216110058925543_4773627696402831653_n.jpg?_nc_cat=100&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=8wyMl3aPvxIAX9Bc5R1&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_aEmltRmDUggvXFeHzsDbuHDRSfr9uXwBK0vPRhzVJhA&oe=62791346" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279510362_1884699461741284_4711010573398953350_n.jpg?_nc_cat=100&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=FgztuBVQ2vMAX8ZaD_y&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-2R7ujq-RU_MONgpylPfoKoSkhMfQrBX7YCj8V4HDzlw&oe=6278E66C" alt="">
+    </div>
+    
+
+    </div>
+    
+</div>
+
+
 
 <!--sliding images  -->
 
-<!-- <div class="image-container"> -->
 
-    <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img class="image1" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/sugar_1_160x160.jpg?v=1548837170" alt="sugar">
-            <img  class="image2" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Plum_Logo_For_Olive_and_Macadamia_Hair_Spa_Kit_160x160.png?v=1625063052" alt="plum">
-            <img  class="image3" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Tru_hair_logo_160x160.png?v=1625063080" alt="tru hair">
-            <img  class="image4" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/WOC_Beauty_Logo_160x160.jpg?v=1602225835" alt="woc">
-             <img  class="image5" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Baiser_India_Logo_160x160.jpg?v=1625063066" alt="baiser">
-          </div>
-          <div class="swiper-slide">
-            <img  class="image6" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/6256280-43d286588b4beafb0e4a423acf72a620-medium_jpg_5e3480ef-0e7a-4aea-88d0-c48379ad9837_160x160.jpg?v=1599290601" alt="color">
-            <img  class="image7" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/brick-new-york-with-symbol-white_46f7f93d-9ac3-4a6b-8827-7341564c001c_160x160.png?v=1599126230" alt="brick"> 
-            <img  class="image8" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/palmers-logo_33a73358-5f3d-4cd4-ac8c-ecf89a2c72b2_160x160.jpg?v=1597725541" alt="plamer">
-            <img  class="image9" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/LLW1vAyf_400x400_36a490d2-defb-4c90-898d-2af5215e8433_160x160.jpg?v=1578730298" alt="tvakh">
-            <img class="image10" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/719h_SoVZLL._SX466_160x160.jpg?v=1594029424" alt="mondsub">
-          </div>
-          <!-- <div class="swiper-slide">Slide 3</div> -->
-          
+<div class="container1">
+
+  <div class="slider">
+    <div class="slider-track">
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/sugar_1_160x160.jpg?v=1548837170" alt="sugar">
         </div>
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-      
-        <!-- If we need navigation buttons -->
-        <!-- <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div> -->
-      
-        
-      </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Plum_Logo_For_Olive_and_Macadamia_Hair_Spa_Kit_160x160.png?v=1625063052" alt="plum">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Tru_hair_logo_160x160.png?v=1625063080" alt="tru hair">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/WOC_Beauty_Logo_160x160.jpg?v=1602225835" alt="woc">
+        </div>
+        <div class="slide">
+            <img  src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Baiser_India_Logo_160x160.jpg?v=1625063066" alt="baiser">
+        </div>
+        <div class="slide">
+            <img  src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/6256280-43d286588b4beafb0e4a423acf72a620-medium_jpg_5e3480ef-0e7a-4aea-88d0-c48379ad9837_160x160.jpg?v=1599290601" alt="color">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/brick-new-york-with-symbol-white_46f7f93d-9ac3-4a6b-8827-7341564c001c_160x160.png?v=1599126230" alt="brick"> 
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/palmers-logo_33a73358-5f3d-4cd4-ac8c-ecf89a2c72b2_160x160.jpg?v=1597725541" alt="plamer">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/LLW1vAyf_400x400_36a490d2-defb-4c90-898d-2af5215e8433_160x160.jpg?v=1578730298" alt="tvakh">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/719h_SoVZLL._SX466_160x160.jpg?v=1594029424" alt="mondsub">
+        </div>
+        <!-- repeat slide -->
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/sugar_1_160x160.jpg?v=1548837170" alt="sugar">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Plum_Logo_For_Olive_and_Macadamia_Hair_Spa_Kit_160x160.png?v=1625063052" alt="plum">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Tru_hair_logo_160x160.png?v=1625063080" alt="tru hair">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/WOC_Beauty_Logo_160x160.jpg?v=1602225835" alt="woc">
+        </div>
+        <div class="slide">
+            <img  src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Baiser_India_Logo_160x160.jpg?v=1625063066" alt="baiser">
+        </div>
+        <div class="slide">
+            <img  src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/6256280-43d286588b4beafb0e4a423acf72a620-medium_jpg_5e3480ef-0e7a-4aea-88d0-c48379ad9837_160x160.jpg?v=1599290601" alt="color">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/brick-new-york-with-symbol-white_46f7f93d-9ac3-4a6b-8827-7341564c001c_160x160.png?v=1599126230" alt="brick"> 
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/palmers-logo_33a73358-5f3d-4cd4-ac8c-ecf89a2c72b2_160x160.jpg?v=1597725541" alt="plamer">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/LLW1vAyf_400x400_36a490d2-defb-4c90-898d-2af5215e8433_160x160.jpg?v=1578730298" alt="tvakh">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/719h_SoVZLL._SX466_160x160.jpg?v=1594029424" alt="mondsub">
+        </div>
+</div>
 
-<!-- </div> -->
-
-
+</div>  
 
   <!-- footer container -->
 
@@ -294,4 +560,6 @@
 </html>
 <script src="https://kit.fontawesome.com/54a5973b68.js" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper1@8/swiper1-bundle.min.js"></script>
 <script src="script.js"></script>
+
