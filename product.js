@@ -15,6 +15,7 @@ const tabs = document.querySelectorAll("#tabs>li>button");
 // create a click to open tab layout javascript
 
 window.addEventListener("load", function () {
+  document.body.removeAttribute("hidden");
   // store tabs variable
   var myTabs = document.querySelectorAll("#tabs li button");
 
