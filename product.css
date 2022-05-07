@@ -186,10 +186,10 @@ a:hover {
   transition: 200ms;
   padding: 20px;
   border-radius: 50px;
+  cursor: pointer;
 }
 #product-tabs #tabs button.active {
   background: #e5b95f;
-  cursor: pointer;
 }
 #product-tabs #tabContents {
   width: 70%;
@@ -205,3 +205,87 @@ a:hover {
   margin-top: 0;
   padding: 0 10%;
 }
+
+#tab2 #box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+#tab2 #box * {
+  margin: 0;
+  padding: 0;
+}
+#tab2 #box .boxes {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #d1d3d1;
+}
+#tab2 #box .boxes .upper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+#tab2 #box .boxes .upper h2 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#tab2 #box .boxes .upper .disc h4 {
+  font-weight: 600;
+  color: #e5b95f;
+}
+#tab2 #box .boxes .upper > div {
+  padding: 15px 20px;
+}
+#tabContents > div {
+  display: none;
+}
+#tabContents .active {
+  display: block;
+}
+
+#tab2 #box .boxes .lower {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #e5b95f;
+}
+
+#tab2 #box .boxes .lower button {
+  display: block;
+  width: 100%;
+  padding: 5px;
+  text-transform: uppercase;
+  background-color: #e5b95f;
+  color: #ffffff;
+  border: 1px solid #fff;
+}
+
+#tab2 #box .boxes .lower button a {
+  font-weight: 600;
+  color: #fff;
+}
+#tab2 #box .boxes .lower button a:hover {
+  color: #252525;
+}
+#tab2 #box .boxes .lower button:hover {
+  cursor: pointer;
+  color: #252525;
+  transition: 200ms;
+}
+
+.review {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.review div a {
+  color: #e5b95f !important;
+}
+
+
+
+
+/* Footer */
