@@ -40,15 +40,22 @@
           </p>
           <div id="plans">
             <h4>Plans</h4>
-            <div>
-              <input type="radio" id="plan1" name="price" checked />
+            <div onchange="radioPrice()">
+              <input type="radio" id="plan1" name="price" value="1" checked />
               <label for="plan1">1 month</label>
 
-              <input type="radio" id="plan2" name="price" />
+              <input type="radio" id="plan2" name="price" value="3" />
               <label for="plan2">3 months</label>
             </div>
 
-            <input type="number" min="1" value="1" name="quantity" />
+            <input
+              id="qty"
+              type="number"
+              min="1"
+              value="1"
+              name="quantity"
+              onchange="qtyprice()"
+            />
             <button id="cart">Add to cart</button>
           </div>
         </div>
