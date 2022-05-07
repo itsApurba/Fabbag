@@ -2,6 +2,7 @@
 
 /* navbar section */
 #navbar {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   height: 70px;
   width: 94%;
   margin: auto;
@@ -219,7 +220,7 @@ a:hover {
 #tab2 #box .boxes {
   display: flex;
   flex-direction: column;
-  border: 2px solid #d1d3d1;
+  border: 1px solid #d1d3d1;
 }
 #tab2 #box .boxes .upper {
   display: flex;
@@ -285,7 +286,61 @@ a:hover {
   color: #e5b95f !important;
 }
 
-
-
-
 /* Footer */
+
+footer * {
+  margin: 10px 0;
+}
+footer {
+  box-shadow: rgb(0 0 0 / 0.1) 0px -4px 12px;
+  width: 94%;
+  font-size: 14px;
+  color: #7d7d7d;
+  padding: 3%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer > div > h2 {
+  font-size: 18px;
+  font-weight: 400;
+  color: #222222;
+}
+
+footer ul li {
+  list-style: none;
+}
+#newsletter h5 {
+  font-weight: 500;
+}
+#newsletter .email {
+  display: flex;
+  justify-content: space-between;
+}
+#newsletter .email * {
+  border: none;
+  border-radius: 7px;
+  padding: 13px;
+}
+#newsletter .email input {
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 4px 20px;
+  padding-right: 0;
+  margin-right: 15px;
+}
+#newsletter .email button {
+  padding: 5px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-size: 12px;
+  background-color: #e5b95f;
+}
+#copyright {
+  text-align: center;
+  margin: 30px 0;
+  color: #7d7d7d;
+}
+
+footer ul li:hover {
+  color: #e5b95f;
+  cursor: pointer;
+}
