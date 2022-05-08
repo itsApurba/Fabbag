@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&family=Roboto:wght@300&display=swap");
+
+* {
+  font-family: Poppins;
+  color: #424242;
+  outline: none;
+}
+input,
+select,
+button {
+  padding: 10px;
+  border: 1px solid #7d7d7d7d;
+  border-radius: 5px;
+  font-size: 14px;
+}
+#checkout-container {
+  display: flex;
+  margin: 50px auto;
+  max-width: 1100px;
+  justify-content: space-between;
+}
+#left {
+  width: 60%;
+  padding-right: 5%;
+}
+#left > div.logo {
+  width: 75%;
+  margin: auto;
+}
+#left > div.logo > img {
+  margin: auto;
+  width: 280px;
+}
+#left > div.steps {
+  margin: auto;
+  width: 94%;
+}
+#left > div.steps > ul {
+  display: flex;
+}
+#left > div.steps > ul li {
+  list-style: none;
+  font-size: 14px;
+}
+#left > div.steps > ul li:nth-child(1) {
+  font-weight: 600;
+}
+
+#left > div.contact-information {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 12px;
+  margin: auto;
+  width: 100%;
+}
+#left > div.contact-information > h2,
+#left > div.contact-information > h3,
+#shipping > h2 {
+  font-weight: 400;
+}
+#left > div.contact-information > h3 > button {
+  border: none;
+  background-color: transparent;
+  padding-left: 0;
+}
+#left > div.contact-information > h3 > button a {
+  text-decoration: none;
+}
+
+#left > input[type="email"]:nth-child(4) {
+  display: block;
+  width: 95%;
+  margin: 0 auto 7px auto;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 12px;
+}
+#shipping > * {
+  margin-bottom: 15px;
+}
+#shipping > div.name {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#shipping > div.name * {
+  width: 45%;
+}
+#shipping > div.location {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#shipping > div.location * {
+  width: 27%;
+}
+#shipping > div.saveForLtr {
+  font-size: 14px;
+}
+#shipping > div.lastsection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#shipping > div.lastsection *:hover {
+  cursor: pointer;
+}
+#shipping > div.lastsection > p {
+  font-size: 16px;
+}
+#shipping > div.lastsection > button {
+  background-color: #000;
+  color: #fff;
+  padding: 15px;
+}
+#right {
+  width: 35%;
+  padding: 40px;
+  background-color: #f7f7f7;
+}
+#right * {
+  margin: 10px auto;
+}
+#right hr {
+  /* border: 1px solid #7d7d7d7d; */
+  height: 1px;
+  background-color: #a8a8a83f;
+  border: none;
+}
+#right > div.desc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#right > div.desc > img {
+  width: 25%;
+  margin-right: 4%;
+}
+#right > div.desc > div:nth-child(2) * {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+}
+#right > div.desc > div:nth-child(2) > p:nth-child(1) {
+  width: 80%;
+}
+#right > div.desc > div:nth-child(2) > p:nth-child(2) {
+  font-size: 12px;
+}
+#right > div.desc > div.price {
+  font-size: 13px;
+}
+#right > div.promo {
+  display: flex;
+  justify-content: space-between;
+}
+
+#right > div.promo > input[type="text"] {
+  width: 70%;
+}
+#right > div.promo > button {
+  background-color: #c8c8c8;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+#finalPrice * {
+  margin: 2px;
+  padding: 0;
+  font-size: 12px;
+}
+#finalPrice hr {
+  margin: 10px auto;
+}
+#finalPrice > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#finalPrice > div:nth-child(4) > p:nth-child(2) > strong {
+  font-weight: 500;
+  font-size: 20px;
+}
