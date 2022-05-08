@@ -77,3 +77,12 @@ function updatePrice() {
     showPrice.classList.remove("changed");
   }, 5000);
 }
+
+// goto checkout page
+let checkout = document.querySelector("#checkout");
+checkout.addEventListener("click", () => {
+  checkout.innerText = "Loading...";
+  setTimeout(() => {
+    window.location.href = "checkout.html";
+  }, 3000);
+});

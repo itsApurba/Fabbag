@@ -29,18 +29,25 @@ function updatePrice(data) {
   let promoInput = document.querySelector(
     "#right > div.promo > input[type=text]"
   );
-  let promoActive = false;
+  let promoActive30 = false;
   promoEle.addEventListener("click", promoFun);
   function promoFun() {
-    if (promoInput.value == "masai30" && promoActive === false) {
-      promoActive = true;
-      totalPrice = totalPrice - (totalPrice * 30) / 100;
-      totalPriceEle.innerHTML = ` Rs. ${totalPrice}`;
-      subtotalEle.innerHTML = `Rs. ${totalPrice}.00`;
-      totalPriceEleStrong.innerHTML = `Rs. ${totalPrice}.00`;
-      alert("Promo Code Applied");
+    event.target.innerText = "Checking...";
+    if (promoInput.value == "masai30" && promoActive30 === false) {
+      setTimeout(() => {
+        promoActive30 = true;
+        totalPrice = totalPrice - (totalPrice * 30) / 100;
+        totalPriceEle.innerHTML = ` Rs. ${totalPrice}`;
+        subtotalEle.innerHTML = `Rs. ${totalPrice}.00`;
+        totalPriceEleStrong.innerHTML = `Rs. ${totalPrice}.00`;
+        alert("Promo Code Applied");
+      }, 2000);
+      event.target.innerText = "Applied";
     } else {
-      alert("Invalid Promo Code");
+      setTimeout(() => {
+        alert("Invalid Promo Code");
+      }, 2000);
+      event.target.innerText = "RETRY";
     }
     // else if (promoInput.value == "masai50" && promoActive === false) {
     //   promoActive = true;
