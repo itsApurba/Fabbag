@@ -121,6 +121,10 @@ input[type="number"]:hover {
   font-size: 14px;
   font-weight: 600;
 }
+#price .total .changed {
+  color: green;
+  transition: 500ms;
+}
 #price > button {
   font-size: 14px;
   text-transform: uppercase;

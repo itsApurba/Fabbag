@@ -67,6 +67,7 @@ function radioPrice() {
   let value = event.target.value;
   if (value == "3") {
     let updatedPrice = price * 3;
+    console.log("updatedPrice: ", updatedPrice);
     plans = 3;
     document.querySelector(
       "#hero1 > div.right > h1.price"
@@ -81,22 +82,21 @@ function radioPrice() {
 }
 
 function qtyprice() {
-  console.log(event.target.value);
-  let value = event.target.value;
-  if (plans == 3) {
-    let updatedPrice = price * value * 3;
-    document.querySelector(
-      "#hero1 > div.right > h1.price"
-    ).innerText = `Rs. ${updatedPrice}.00`;
-
-    console.log(updatedPrice);
-  } else {
-    let updatedPrice = price * value;
-    document.querySelector(
-      "#hero1 > div.right > h1.price"
-    ).innerText = `Rs. ${updatedPrice}.00`;
-    console.log(updatedPrice);
-  }
+  // console.log(event.target.value);
+  // let value = event.target.value;
+  // if (plans == 3) {
+  //   let updatedPrice = price * value * 3;
+  //   document.querySelector(
+  //     "#hero1 > div.right > h1.price"
+  //   ).innerText = `Rs. ${updatedPrice}.00`;
+  //   console.log(updatedPrice);
+  // } else {
+  //   let updatedPrice = price * value;
+  //   document.querySelector(
+  //     "#hero1 > div.right > h1.price"
+  //   ).innerText = `Rs. ${updatedPrice}.00`;
+  //   console.log(updatedPrice);
+  // }
 }
 cart.addEventListener("click", function () {
   // console.log("cart clicked");
@@ -115,6 +115,7 @@ cart.addEventListener("click", function () {
     qty: +qty,
     plan: +plan,
     price: +price1,
+    totalPrice: +price1 * qty,
   };
   cartData.push(cartObj);
   console.log(cartData);

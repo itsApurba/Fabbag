@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>- Checkout Page -</title>
+    <link rel="stylesheet" href="chechout.css" />
   </head>
   <body>
     <div id="checkout-container">
@@ -14,21 +15,21 @@
         </div>
         <div class="steps">
           <ul>
-            <li>Cart</li>
-            <li>Information</li>
-            <li>Shipping</li>
-            <li>Payment</li>
+            <li>Cart >&nbsp</li>
+            <li>Information >&nbsp</li>
+            <li>Shipping >&nbsp</li>
+            <li>Payment >&nbsp</li>
           </ul>
         </div>
         <div class="contact-information">
           <h2>Contact Information</h2>
           <h3>
-            already have an account? <button><a href="#">Login</a></button>
+            Already have an account? <button><a href="#">Log in</a></button>
           </h3>
         </div>
 
         <input type="email" placeholder="Email" />
-        <input type="checkbox" name="email" />
+        <input type="checkbox" name="email" checked />
         <label for="email">Email me with news and offers</label>
 
         <form id="shipping">
@@ -48,17 +49,49 @@
             <input type="number" placeholder="Pincode" />
           </div>
           <input type="number" placeholder="Phone" />
-          <input type="checkbox" name="save" />
-          <label for="save">Save this information for next time</label>
+          <div class="saveForLtr">
+            <input type="checkbox" name="save" />
+            <label for="save">Save this information for next time</label>
+          </div>
           <div class="lastsection">
-            <p>Return to Cart</p>
+            <p>< Return to Cart</p>
             <button type="submit">Continue to shipping</button>
           </div>
         </form>
       </div>
       <div id="right">
-          
+        <div class="desc">
+          <img src="img/Makeup-Reveal-1.gif" alt="Product Image" />
+          <div>
+            <p>The AweSummer May Fab Bag</p>
+            <p>1 Month</p>
+          </div>
+          <div class="price">Rs. 599.00</div>
+        </div>
+        <hr />
+        <div class="promo">
+          <input type="text" placeholder="Discount Code" />
+          <button>Apply</button>
+        </div>
+        <hr />
+        <div id="finalPrice">
+          <div class="subtotal">
+            <p>Subtotal</p>
+            <p>Rs. 599.00</p>
+          </div>
+          <div class="shipping">
+            <p>Shipping</p>
+            <p>Calculated at next step</p>
+          </div>
+          <hr />
+          <div>
+            <p>Total</p>
+            <p>INR <strong>2599.00</strong></p>
+          </div>
+        </div>
       </div>
     </div>
   </body>
 </html>
+
+<script src="ccheckout.js"></script>
