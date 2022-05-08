@@ -38,8 +38,8 @@ function updatePrice(data) {
         promoActive30 = true;
         totalPrice = totalPrice - (totalPrice * 30) / 100;
         totalPriceEle.innerHTML = ` Rs. ${totalPrice}`;
-        subtotalEle.innerHTML = `Rs. ${totalPrice}.00`;
-        totalPriceEleStrong.innerHTML = `Rs. ${totalPrice}.00`;
+        subtotalEle.innerHTML = `Rs. ${totalPrice}`;
+        totalPriceEleStrong.innerHTML = `Rs. ${totalPrice}`;
         alert("Promo Code Applied");
       }, 2000);
       event.target.innerText = "Applied";
