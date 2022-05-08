@@ -167,6 +167,7 @@ form {
   background-color: #c8c8c8;
   color: white;
   border: none;
+  cursor: pointer;
 }
 #finalPrice * {
   margin: 2px;
