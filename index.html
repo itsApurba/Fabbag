@@ -1,0 +1,564 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAB BAG</title>
+    <link rel="icon" type="image/x-icon" href="https://scontent.cdninstagram.com/v/t51.2885-15/280078594_1223755911761497_2934819991498115476_n.jpg?_nc_cat=110&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=8fSR2to5lwsAX9Teh9F&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-VC0LPdfaELeP2zh7MiA0Hi9ZoYJfYMG96hIRtA0CIbA&oe=627BAA43">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+
+  </head>
+<body>
+    <div class="show">
+          <p class="top">AVAILABLE NOW - THE AWESUMMER MAY FAB BAG!</p>
+          
+    </div>
+  
+    <!--  Navbar Section -->
+   
+     <header id="navbar">
+        <span class="subscribe">SUBSCRIBE NOW</span>
+        <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO_96ac9306-4c81-4ab8-8d2b-4e818eed7f76_2048x.png?v=1606482289" alt="fabbag">
+        <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <a href="#">
+            <i class="fa-solid fa-heart"></i>
+        </a>
+
+
+
+        <div class="action">
+            <div class="profile" onclick="menuToggle();">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li> <a href="#"> Languages : En Fr</a> </li>
+                    <li> <a href="#"> Checkout</a> </li>
+                    <li> <a href="#"> Signin</a> </li>
+                    <li> <a href="#">Create An Account </a> </li>
+                </ul>
+            </div>
+        </div>
+       <a href="#"> <i id="cart" class="fa-solid fa-cart-plus"></i></a>
+        </div>
+    </header>
+
+    <!-- slide image -->
+    <div id="Bigmain">
+        <div class="bigimage">
+            <img class="banner" src="image/img1.jpg" alt="">
+    
+        </div>
+        <div class="bigimage">
+            <img class="banner" src="image/img2.jpg" alt="">
+    
+        </div>
+        <div class="bigimage">
+            <img  class="banner" src="image/img3.jpg" alt="">
+    
+        </div>
+            
+            <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+            <span class="arrow next" onclick="controller(-1)">&#10095;</span>
+        </div>
+
+        <!-- what's in the bag -->
+    
+    <div class="whatheading">
+        <h1>WHAT'S IN THE BAG</h1>
+        <hr>
+    </div>
+    <div class="product"> 
+        <button class="pre-btn"><img src="image/arrow.png" alt=""></button>
+        <button class="nxt-btn"><img src="image/arrow.png" alt=""></button>
+        <div class="product-container">
+           
+            <div class="product-card">
+               
+                
+                <div class="img">
+                    <img class="image" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Makeup-1_f948e4f7-8ffd-41c9-9c87-d0edd62452b9_2048x.png?v=1651344527" alt="">
+        
+                </div>
+                <p>LIQUID HIGHLIGHTER OF YOUR CHOICE!*</p>
+            </div>
+            <div class="product-card">
+                
+                <div class="img">
+                    <img class="image" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Makeup-2_b1d2533b-4810-4f7e-9321-7d0cca0b019f_2048x.png?v=1651344579" alt="">
+        
+                </div>
+                <p>LIQUID LIPSTICK OF YOUR CHOICE!*</p>
+            </div>
+            <div class="product-card">
+                
+                <div class="img">
+                    <img class="image" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Skincare-1_cf1f2eb6-e64c-4dcb-af8b-f80963cceddd_2048x.png?v=1651344625" alt="">
+        
+                </div>
+                <p>HAIRCARE DUO</p>
+            </div>
+            <div class="product-card">
+                
+                <div class="img">
+                    <img class="image" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Skincare-2_2_2048x.png?v=1651466768" alt="">
+        
+                </div>
+                <p>ORGANIC SOAP</p>
+            </div>
+            <div class="product-card">
+                
+                <div class="img">
+                    <img class="image" src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/What_s-In-The-Bag-Bonus_2048x.gif?v=1651344727
+                    style bag" alt="">
+        
+                </div>
+                <p>BONUS*</p>
+            </div>
+            
+            
+        </div>
+    </div>
+
+    <!-- subscription -->
+    
+        <div id="Subscription">
+            <h1>SUBSCRIPTION</h1>
+            <hr>
+            <div id="subsbox">
+            <div class="Subs1">
+                <div>
+                    <h3>1 MONTH</h3>
+                    <P>SUBSCRIPTION</P>
+                </div>
+                <div>
+                    <h3>RS. 599.00</h3>
+                    <p>/per month</p>
+                </div>
+                <div class="adcart1">
+                    <h4>ONE TIME PAYMENT</h4>
+                    <h3>RS. 599.00</h3>
+                    <div class="BTN1">
+                        <button class="chngcolor">ADD TO CART</button>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="Subs2">
+                <div>
+                    <h3>1 MONTH</h3>
+                    <P>SUBSCRIPTION</P>
+                </div>
+                <div>
+                    <h3>RS. 599.00</h3>
+                    <p>/per month</p>
+                </div>
+                <div class="adcart2">
+                    <h4>ONE TIME PAYMENT
+                        (11% OFF)</h4>
+                    <h3>RS. 1,599.00</h3>
+                    <p>RS. 1,797</p>
+    
+                    <div class="BTN">
+                        <button>ADD TO CART</button>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
+        
+        <!-- prevBag -->
+    
+        </div>
+        <div id="prevBag">
+            <h3>PREVIOUS BAGS</h3>
+            <hr>
+            <div id="Bags">
+            <div class="bag">
+                <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal-3_1728264b-2e0f-4314-9a3c-0fde458d72a7.png?v=1649483317" alt="">
+                <p>Apr'22 The Sassy Spring Fab Bag</p>
+                <p>from Rs 599.00</p>
+            </div>
+            <div class="bag">
+                <img src=  "https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal-3.png?v=1646971494" alt="">
+                <p>Mar'22 The Empow-HER Fab Bag</p>
+                <p>from Rs 599.00</p>
+            </div>
+            <div class="bag">
+                <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal-2.gif?v=1644395072" alt="">
+                <p>Feb'22 The Colour Me Cupid Fab Bag</p>
+                <p>from Rs 599.00</p>
+            </div>
+            <div class="bag">
+                <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-Skincare-Reveal--3.png?v=1641707966" alt="">
+                <p>Jan'22 The Beauty Resolution Fab Bag</p>
+                <p>from Rs 599.00</p>
+            </div>
+            <div class="bag">
+                <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPage-3.gif?v=1638191014" alt="">
+                <p>Dec'21 The X-Must Haves Fab Bag</p>
+                <p>from Rs 599.00</p>
+            </div>
+            <div class="bag">
+                <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/products/Women_sPageBanner--Skincare-Reveal-4_1.gif?v=1636696484" alt="">
+                <p>Nov'21 The Diva-Li_Cious Fab Bag</p>
+                <p><strike>Rs. 1,797.00</strike></p>
+                <p>from Rs 599.00</p>
+            </div>
+           </div>
+        </div>
+
+   
+    
+    <!-- TESTINOIALS -->
+
+  <div id="testimonials">
+      <!-- <div> -->
+          <h3>TESTIMONIALS</h3>
+      <!-- </div> -->
+  </div>
+  <!-- <div class="container"> -->
+           
+    <div class="swiper">
+       <!-- <img src="Testimonials.webp" alt="testimonials"> -->
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+         
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <span class="quote-icon">  <i id="quote1" class="fa fa-quote-left" aria-hidden="true"></i> </span>
+            <p class="text" >
+                I love each and every Fab Bag that I receive each month past
+                 three years. I am so much in love with fab bags and all the lovely <br>
+                  products and cute little pouches that I get. I love Fab Bag. <br>
+                   -Munira
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <span class="quote-icon">  <i id="quote2" class="fa fa-quote-left" aria-hidden="true"></i></span>
+            <p class="text">I've been a regular Fab bag subscriber for many years now and I 
+                 must say that the Fab Bag team comes up with something or <br>
+                  the other as a special attraction in the bag every month. As 
+                   always, thank you Fab Ba for making my day with this bag!!! <br>
+                    -Poonam</p>
+
+          </div>
+          <div class="swiper-slide">
+            <span class="quote-icon">  <i id="quote3" class="fa fa-quote-left" aria-hidden="true"></i></span>
+            <p class="text">
+                I like that fact that they offer high-quality products. Every single 
+                product from the bag stands out. It is a MUST TRY for every girl  <br>
+                out there. <br>
+                 -Shikha
+        </p>
+          </div>
+          <div class="swiper-slide">
+          
+            <span class="quote-icon"> <i id="quote4" class="fa fa-quote-left" aria-hidden="true"></i></span>
+            <p class="text">
+                I am highly impressed with the idea of surprising the customers 
+                 by leaving them to guess, whats inside the Bag. Surprises brings  <br>
+                 excitement and I am always excited to receive my Fab Bag. First 
+                  of all should say that the Bags are awesome and each time I  <br>
+                  got my Fab Bag. I was really happy to find whats inside it. Really satisfied! :) <br> 
+                   -Pratika 
+                 </p>
+          </div>
+          <div class="swiper-slide">
+            <span class="quote-icon">
+                <i id="quote5" class="fa fa-quote-left" aria-hidden="true"></i></span>
+            <p class="text">
+                This is my second month and I am already addicted. Can't wait  
+                 for my third bag. It feels like someone wiht so much love who loves <br>
+                  pampering you. Thank you Fab Bag. Amazing products  <br>
+                 Thank you with gratitude. <br>
+                  -Kirthana
+            </p>
+
+          </div>
+          <div class="swiper-slide">
+            <span class="quote-icon">
+                <i id="quote6" class="fa fa-quote-left" aria-hidden="true"></i>
+               </span>
+            <p class="text">
+                Who dosen't want to get pampered? And this bag is all you need 
+                 when you want to show some extra love to yourself. Every other <br>
+                  product is of the best quality. And top of it doesn't burn a hole in 
+                   your pocket. Every month I just wait for my bag as a small kid  <br>
+                   waits for  her favourite toy. This Fab Bag is an upright bliss. <br>
+                    -Anushree
+            </p>
+
+          </div>
+          <div class="swiper-slide">
+            <span class="quote-icon">   <i id="quote7" class="fa fa-quote-left" aria-hidden="true"></i></span>
+            <p class="text">
+                I am getting addicted to Fab Bag's. the first one I had ordered 
+                 was simply to check it out as my friend had recommended. I am not <br>
+                   someone who spends a lot of time thinking about beauty  
+                  products and I am clueless when it comes to such matters. Which is why the <br>
+                   Fab Bag's are perfect for me. This August Fab 
+                    Bag had everything I needed! The product curation is perfect. It's like having my own <br>
+                     personal shopper for beauty peroducts  <br>
+                     and such pretty bags too. <br> 
+                      -Saileena
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <span class="quote-icon"><i id="quote8" class="fa fa-quote-left" aria-hidden="true"></i></span>
+            <p class="text">
+                The products are amazing and I am just in love with the bag!
+                 Kudos to you team! <br>
+                  -Niranjana
+            </p>
+          </div>
+        
+
+        
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+      
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        
+      </div>
+                                
+    
+  <!-- </div> -->
+
+<!-- trendingnow gossip -->
+<!-- <div id="insta-feed">
+    <h2>#TRENDING AT THE GOSSIP CORNER</h2>
+    <a href="">
+        <div class="instafeed-container">
+            <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279581933_497215932094707_6136128380394766149_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=G_yySAoOyjMAX9NUpms&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-qvvxEk9Pk38MwESzm9WRaENai1-RtEYfgz2aC7MdOcQ&oe=62770A52" alt="">
+            <div class="instafeed-overlay">
+
+            </div>
+        </div>
+    </a>
+</div> -->
+
+<!-- instafeed -->
+
+<div class="instagram">
+    <h>#TRENDINGNOW AT THE GOSSIP CORNER</h3>
+    <div class="instacards">
+ 
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279842470_293278966335801_7431247082036908895_n.jpg?_nc_cat=111&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=uUEqzjrrD5gAX-f1R7T&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9tG3SHiM-ZVIrtgLwxICMjFPY_EyJel1pIs7GYJwcgfQ&oe=627A8097" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279763268_532493598580918_2309645971247741063_n.jpg?_nc_cat=102&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=qtKpF1bQlmEAX9PX1mL&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_WxbedXj4qA4urv6SORsOlowcOqHQIp3ZAjSwIEvUDMw&oe=627991FF" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/280078594_1223755911761497_2934819991498115476_n.jpg?_nc_cat=110&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=8fSR2to5lwsAX9Teh9F&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT90tyAeRmjyXuluj6fzQZNGnrKuwq6vgJ1jgd5MURDDiQ&oe=6279B003" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279690442_531630221670430_7682245722290914391_n.jpg?_nc_cat=108&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=NcQAe4tmzMAAX8D2Zk3&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9pfJHHrYwW-8eaRQ8gXNhV8Fuz066gfp4ssS-ioAA2WA&oe=6278B165" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279754469_728802825086106_2659596606794103187_n.jpg?_nc_cat=102&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=Op5nrgvIob0AX8oQDN4&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_S_XbkfTzACDnJFcVtd1-LJFJQzZ3vtwTDE06M3yH3VA&oe=627A3B82">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279581933_497215932094707_6136128380394766149_n.jpg?_nc_cat=108&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=I7kXhal58ywAX8l2t-q&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8EJm_nWInIKJoHlUYRPbaYW9Afe5UxV-8JuJR1zCf7XQ&oe=62790492" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279573265_1216110058925543_4773627696402831653_n.jpg?_nc_cat=100&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=8wyMl3aPvxIAX9Bc5R1&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_aEmltRmDUggvXFeHzsDbuHDRSfr9uXwBK0vPRhzVJhA&oe=62791346" alt="">
+    </div>
+    <div class="insta">
+        <img src="https://scontent.cdninstagram.com/v/t51.2885-15/279510362_1884699461741284_4711010573398953350_n.jpg?_nc_cat=100&ccb=1-6&_nc_sid=8ae9d6&_nc_ohc=FgztuBVQ2vMAX8ZaD_y&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT-2R7ujq-RU_MONgpylPfoKoSkhMfQrBX7YCj8V4HDzlw&oe=6278E66C" alt="">
+    </div>
+    
+
+    </div>
+    
+</div>
+
+
+
+<!--sliding images  -->
+
+
+<div class="container1">
+
+  <div class="slider">
+    <div class="slider-track">
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/sugar_1_160x160.jpg?v=1548837170" alt="sugar">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Plum_Logo_For_Olive_and_Macadamia_Hair_Spa_Kit_160x160.png?v=1625063052" alt="plum">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Tru_hair_logo_160x160.png?v=1625063080" alt="tru hair">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/WOC_Beauty_Logo_160x160.jpg?v=1602225835" alt="woc">
+        </div>
+        <div class="slide">
+            <img  src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Baiser_India_Logo_160x160.jpg?v=1625063066" alt="baiser">
+        </div>
+        <div class="slide">
+            <img  src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/6256280-43d286588b4beafb0e4a423acf72a620-medium_jpg_5e3480ef-0e7a-4aea-88d0-c48379ad9837_160x160.jpg?v=1599290601" alt="color">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/brick-new-york-with-symbol-white_46f7f93d-9ac3-4a6b-8827-7341564c001c_160x160.png?v=1599126230" alt="brick"> 
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/palmers-logo_33a73358-5f3d-4cd4-ac8c-ecf89a2c72b2_160x160.jpg?v=1597725541" alt="plamer">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/LLW1vAyf_400x400_36a490d2-defb-4c90-898d-2af5215e8433_160x160.jpg?v=1578730298" alt="tvakh">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/719h_SoVZLL._SX466_160x160.jpg?v=1594029424" alt="mondsub">
+        </div>
+        <!-- repeat slide -->
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/sugar_1_160x160.jpg?v=1548837170" alt="sugar">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Plum_Logo_For_Olive_and_Macadamia_Hair_Spa_Kit_160x160.png?v=1625063052" alt="plum">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Tru_hair_logo_160x160.png?v=1625063080" alt="tru hair">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/WOC_Beauty_Logo_160x160.jpg?v=1602225835" alt="woc">
+        </div>
+        <div class="slide">
+            <img  src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/Baiser_India_Logo_160x160.jpg?v=1625063066" alt="baiser">
+        </div>
+        <div class="slide">
+            <img  src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/6256280-43d286588b4beafb0e4a423acf72a620-medium_jpg_5e3480ef-0e7a-4aea-88d0-c48379ad9837_160x160.jpg?v=1599290601" alt="color">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/brick-new-york-with-symbol-white_46f7f93d-9ac3-4a6b-8827-7341564c001c_160x160.png?v=1599126230" alt="brick"> 
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/palmers-logo_33a73358-5f3d-4cd4-ac8c-ecf89a2c72b2_160x160.jpg?v=1597725541" alt="plamer">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/LLW1vAyf_400x400_36a490d2-defb-4c90-898d-2af5215e8433_160x160.jpg?v=1578730298" alt="tvakh">
+        </div>
+        <div class="slide">
+            <img src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/719h_SoVZLL._SX466_160x160.jpg?v=1594029424" alt="mondsub">
+        </div>
+</div>
+
+</div>  
+
+  <!-- footer container -->
+
+  <footer id="container1">
+    <div id="footer-container">
+        <span class="footer">
+          <h3 class="information">INFORMATION</h3>
+         <ul class="content">
+             <li>
+                 <a href="">
+                   <span>About Us</span> 
+                 </a>
+             </li>
+             <li>
+                 <a href="">
+                   <span>Associated Brands</span> 
+                 </a>
+             </li>
+             <li>
+                 <a href="">
+                     <span>FAQ</span>
+                 </a>
+             </li>
+             <li>
+                 <a href="">
+                     <span>Collaborate with FAb Bag</span>
+                 </a>
+             </li>
+             <li>
+                 <a href="">
+                     <span>Contact Us</span>
+                 </a>
+             </li>
+             <li>
+                 <a href="">
+                     <span>Return & Refunds</span>
+                 </a>
+             </li>
+             <li>
+                 <a href="">
+                     <span>Terms & Conditions</span>
+                 </a>
+             </li>
+             <li>
+                 <a href="">
+                     <span>Privacy Policy</span>
+                 </a>
+             </li>
+         </ul>
+        </span>
+        <span class="footer2">
+          <h3 class="information">CUSTOMER CARE</h3>
+         <span class="customercare">
+            <h5 class="detail">Call : 
+                <a href="tel : 022-6805-6010">
+                    <span>&nbsp;</span>
+                    <b>022-6805-6010</b>
+                    <span>&nbsp;</span>
+                </a>
+                <span>
+                    <br>
+                    (Monday to Friday : 9AM - 7PM)
+                </span>
+            </h5>
+            <h5>
+                Mail : 
+                <a href="mailto:crew@fabbag.com">crew@fabbag.com</a>
+            </h5>   
+         </span> 
+           
+        
+        </span>
+  
+        <span class="newsletter">
+            <h3 class="information">Newsletter</h3>
+            <span class="spam">Signup for the latest offers, updates and news <br> </span>
+            <input type="email" placeholder="Your email address" id="email">
+            <input type="submit" value="SUBSCRIBE" id="btn"> <br>
+            <span class="spam">Don't worry we don't spam</span>
+        </span>
+    </div>
+  
+    <!-- social media handle -->
+    <div class="socialmedia">
+        <a href="https://www.facebook.com/fabbag" target="_blank" id="facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://twitter.com/thefabbag" target="_blank" id="twitter">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/thefabbag/" target="_blank" id="instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/fabbag" target="_blank" id="youtube">
+          <i class="fa-brands fa-youtube"></i>
+        </a>
+    </div>
+  <p class="disclaimer">Copyright 2021 fabbag.com classAll rights reserved</p>
+  </footer>
+  
+</body>
+</html>
+<script src="https://kit.fontawesome.com/54a5973b68.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/swiper1@8/swiper1-bundle.min.js"></script>
+<script src="script.js"></script>
+
