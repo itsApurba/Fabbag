@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FabBag Awesome Products</title>
+    <link rel="stylesheet" href="product.css" />
+  </head>
+  <body hidden>
+    <!--  Navbar Section -->
+    <div id="navbar">
+      <span class="subscribe">SUBSCRIBE NOW</span>
+      <img
+        src="https://cdn.shopify.com/s/files/1/0052/7551/6995/files/FABBAG-LOGO_96ac9306-4c81-4ab8-8d2b-4e818eed7f76_2048x.png?v=1606482289"
+        alt="fabbag"
+      />
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <a href="">
+          <i class="fa-solid fa-heart"></i>
+        </a>
+        <i class="fa-solid fa-user"></i>
+        <i class="fa-solid fa-cart-plus"></i>
+      </div>
+    </div>
+    <!-- container -->
+    <div id="container">
+      <div id="hero1">
+        <div class="left">
+          <img src="img/Makeup-Reveal-1.gif" alt="product image" />
+        </div>
+        <div class="right">
+          <p><a href="homepage.html">Home</a></p>
+          <h1 class="title">The AweSummer May Fab Bag</h1>
+          <h1 class="price">Rs. 599.00</h1>
+          <p class="desc">
+            Phew, it's getting hot in here! Unveil the midsummer madness with
+            the hottest beauty staples inside the...
+          </p>
+          <div id="plans">
+            <h4>Plans</h4>
+            <div onchange="radioPrice()">
+              <input type="radio" id="plan1" name="price" value="1" checked />
+              <label for="plan1">1 month</label>
+
+              <input type="radio" id="plan2" name="price" value="3" />
+              <label for="plan2">3 months</label>
+            </div>
+
+            <input
+              id="qty"
+              type="number"
+              min="1"
+              value="1"
+              name="quantity"
+              onchange="qtyprice()"
+            />
+            <button id="cart">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div id="product-tabs">
+        <div id="tabs">
+          <li>
+            <button class="active" href="#tab1">Description</button>
+          </li>
+          <li><button href="#tab2">View Plans</button></li>
+          <li><button href="#tab3">RETURNS POLICY</button></li>
+          <li><button href="#tab4">Customer Reviews</button></li>
+        </div>
+        <div id="tabContents">
+          <div id="tab1" class="active">
+            <p>
+              Phew, it's getting hot in here! Unveil the midsummer madness with
+              the hottest beauty staples inside the AweSummer May Fab Bag.
+            </p>
+            <p>Here's what you can expect inside your May Fab Bag:</p>
+            <ul>
+              <li>SUGAR Own The Light Liquid Highlighter of your choice!*</li>
+              <li>Liquid Lipstick of your choice!*</li>
+              <li>Haircare Duo</li>
+              <li>Organic Soap</li>
+              <li>Bonus*</li>
+            </ul>
+            <p>
+              *Two offers cannot be clubbed. Makeup choice will be available on
+              the order confirmation page, on a first-come, first-served basis.
+              Bonus product will be customized by the Fab Bag Crew.
+            </p>
+            <p>
+              FAB BAG delivers the best of beauty and makeup products once a
+              month, customized just for you.
+            </p>
+          </div>
+          <div id="tab2" class="">
+            <div id="box">
+              <div class="boxes">
+                <div class="upper">
+                  <div class="date">
+                    <h2>1 Month</h2>
+                    <p>Subscription</p>
+                  </div>
+                  <hr />
+                  <div class="price">
+                    <h2>Rs. 599.00 / month</h2>
+                  </div>
+                  <hr />
+                  <div class="disc">
+                    <h4>One Time Payment</h4>
+                    <h2>Rs. 599.00</h2>
+                  </div>
+                </div>
+                <div class="lower">
+                  <button><a href="#">add to cart</a></button>
+                </div>
+              </div>
+              <div class="boxes">
+                <div class="upper">
+                  <div class="date">
+                    <h2>3 Month</h2>
+                    <p>Subscription</p>
+                  </div>
+                  <hr />
+                  <div class="price">
+                    <h2>Rs. 599.00 / month</h2>
+                  </div>
+                  <hr />
+                  <div class="disc">
+                    <h4>One Time Payment</h4>
+                    <h2>Rs. 1599.00</h2>
+                  </div>
+                </div>
+                <div class="lower">
+                  <button><a href="#">add to cart</a></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="tab3" class="">
+            <ul>
+              <li>
+                Returns Policy for FAB BAG Monthly Subscriptions: 100% Happiness
+                or Money-Back Guarantee
+              </li>
+              <li>For more details, please see our Policy</li>
+              <li>
+                hould you have any questions regarding this product, please feel
+                free to get in touch with our friendly Customer Experience Team
+                at crew@fabbag.com within 48 hours of receiving the shipment or
+                call us at 022-4896-7878 Mon - Fri, 9am - 7pm.
+              </li>
+            </ul>
+          </div>
+          <div id="tab4" class="">
+            <h3>Customer Reviews</h3>
+            <div class="review">
+              <div>
+                <p>No reviews yet</p>
+              </div>
+              <div>
+                <a href="#">Write a review</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div id="information">
+        <h2>INFORMATION</h2>
+        <ul>
+          <li>About Us</li>
+          <li>Associated Brands</li>
+          <li>FAQ</li>
+          <li>Collaborate with Fab Bag</li>
+          <li>Contact Us</li>
+          <li>Returns & Refunds</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div id="customer-care">
+        <h2>CUSTOMER CARE</h2>
+        <ul>
+          <li>
+            Call : <strong>022-6805-6010</strong><br />(Monday to Friday : 9 AM
+            - 7 PM).
+          </li>
+          <li>Mail : crew@fabbag.com</li>
+        </ul>
+      </div>
+      <div id="newsletter">
+        <h2>NEWSLETTER</h2>
+        <h5>Signup for the latest offers, updates and news</h5>
+        <div class="email">
+          <input type="text" placeholder="your email address" />
+          <button>SUBSCRIBE</button>
+        </div>
+        <h5>Don’t worry we don’t spam</h5>
+      </div>
+    </footer>
+    <div id="copyright">
+      <p>Copyright © 2021 fabbag.com All rights reserved.</p>
+    </div>
+    <!-- Footer Ends-->
+  </body>
+</html>
+<script
+  src="https://kit.fontawesome.com/54a5973b68.js"
+  crossorigin="anonymous"
+></script>
+<script src="product.js"></script>
