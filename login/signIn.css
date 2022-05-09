@@ -1,0 +1,317 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px -8px 0px -8px;
+    font-size: 9px;
+    font-family: 'Radio Canada', sans-serif;
+    color: #e5b95f;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.navbar>h1 {
+    margin: 12px 18px;
+}
+
+.btns {
+    margin: 8px 17px;
+}
+
+.logo {
+    height: 52px;
+    width: auto;
+}
+
+.rightCorner {
+    padding: 10px 10px;
+    margin-left: 0px;
+    border: none;
+    background: none;
+    color: #e5b95f;
+}
+
+.card {
+    font-family: 'Montserrat', sans-serif;
+    /* border: 1px solid rebeccapurple; */
+    text-align: center;
+    height: auto;
+    width: 35%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.link {
+    /* border-color: #2d5073; */
+    /* background-color: #3b5998; */
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+    font-family: 'Radio Canada', sans-serif;
+    background: linear-gradient(90deg, #3b5998 89%, #4765a8 10%);
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+}
+
+.google {
+    /* border-color: #c23321; */
+    /* background-color: #dd4b39; */
+    padding: 15px 0px 15px 0px;
+    background: linear-gradient(90deg, #dd4b39 89%, #d26a5d 10%);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.link>a {
+    color: white;
+    text-decoration: none;
+    margin-right: 275px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.google>a {
+    color: white;
+    text-decoration: none;
+    margin-right: 290px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+input {
+    margin: -5px 0px 0px 1px;
+    padding: 13px 296px 14px 15px;
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.info {
+    color: grey;
+    margin: 0px 0px 0px 0px;
+}
+
+.info>p {
+    margin: 19px 368px 15px 0px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.info>p:nth-child(3) {
+    margin: 19px 368px 15px -30px;
+    font-family: 'Radio Canada', sans-serif;
+}
+
+.midCard {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.midCard>p:nth-child(1) {
+    color: rgb(236, 72, 72);
+    font-weight: bolder;
+}
+
+.forget {
+    font-weight: bolder;
+}
+
+.forget:hover {
+    color: #e5b95f;
+    transition: .3s;
+}
+
+.subBtn1 {
+    margin: 15px 0px 30px 1px;
+    padding: 15px 215px 14px 220px;
+    background-color: #e5b95f;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.subBtn2:hover {
+    color: white;
+    background-color: black;
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;
+}
+
+.subBtn1:hover {
+    color: white;
+    background-color: black;
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;
+}
+
+
+.subBtn2 {
+    margin: 25px 0px 30px 1px;
+    padding: 13px 170px 14px 170px;
+    background-color: #e5b95f;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.orOrigin {
+    border-top: 1px solid #aaa;
+    text-align: center;
+    margin: 15px 15px;
+    z-index: -2;
+}
+
+.overLayer {
+    margin: -27px 227px 0px 227px;
+    background-color: rgb(255, 255, 255);
+}
+
+.LastInput {
+    padding: 14px 80px 14px 5px;
+}
+
+.subscribe {
+    margin-left: 10px;
+    padding: 14px 14px;
+    background-color: #e5b95f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+
+.subscribe:hover {
+    color: white;
+    background-color: black;
+    transition-duration: .6s;
+    transition-timing-function: ease-in-out;
+}
+
+.lastDetails:hover {
+    color: grey;
+}
+
+.lastDetails {
+    color: rgb(24, 24, 24);
+    font-size: 22px;
+}
+
+.lastCards {
+    color: grey;
+    margin: 60px 0px 0px 18px;
+}
+
+.lastCards>p:nth-child(2):hover {
+    color: #e5b95f;
+    transition: .4s;
+}
+
+.lastCards>p:nth-child(3):hover {
+    color: #e5b95f;
+    transition: .4s;
+}
+
+.lastCards>p:nth-child(4):hover {
+    color: #e5b95f;
+    transition: .4s;
+}
+
+.lastCards>p:nth-child(5):hover {
+    color: #e5b95f;
+    transition: .4s;
+}
+
+.lastCards>p:nth-child(6):hover {
+    color: #e5b95f;
+    transition: .4s;
+}
+
+.lastCards>p:nth-child(7):hover {
+    color: #e5b95f;
+    transition: .4s;
+}
+
+.lastCards>p:nth-child(8):hover {
+    color: #e5b95f;
+    transition: .4s;
+}
+
+.lastCards>p:nth-child(9):hover {
+    color: #e5b95f;
+    transition: .4s;
+}
+
+.footer {
+    margin: -70px 0px 25px 550px;
+    padding: 0px 0px 0px 0px;
+}
+
+.footer>button {
+    margin-left: 11px;
+    padding: 13px 16px;
+    border-radius: 30px;
+    border: none;
+    color: grey;
+}
+
+.last {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 100px;
+    text-align: left;
+    margin-left: -5px;
+    margin-right: -5px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bolder;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 0px 12px 0px 22px;
+    grid-template-areas:
+        "in cr nz"
+        "bt bt bt";
+}
+
+.last>div:nth-child(1) {
+    /* background-color: red; */
+    grid-area: in;
+}
+
+.last>div:nth-child(2) {
+    /* background-color: red; */
+    grid-area: cr;
+}
+
+.last>div:nth-child(3) {
+    /* background-color: red; */
+    grid-area: nz;
+}
+
+.last>div:nth-child(4) {
+    /* background-color: red; */
+    grid-area: bt;
+}
+
+.fb:hover {
+    background-color: #4765a8;
+    color: white;
+}
+
+.tw:hover {
+    background-color: #4189e7;
+    color: white;
+}
+
+.inta:hover {
+    background: rgb(255, 195, 74);
+    background: linear-gradient(54deg, rgba(255, 195, 74, 1) 0%, rgba(255, 133, 133, 1) 31%, rgba(21, 77, 255, 1) 100%);
+    color: white;
+}
+.yt:hover{
+    background-color: rgb(255, 116, 116);
+    color: white;
+}
+.footerHeading{
+    margin: 20px 0px 0px -100px;
+    font-size: 19px;
+    color: grey;
+}
