@@ -187,11 +187,15 @@
 /* what's in the bag */
 
 .whatheading{
+    
     text-align: center;
     /* border: 1px solid black; */
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     
 }
+/* .whatheading h1{
+    margin-top: 40px;
+} */
 .bagbox{
     display: flex;
     /* border: 1PX solid black; */
@@ -226,14 +230,15 @@ p{
     width: 100%;
     margin: auto;
     margin-top: 30px;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     /* border: 2px solid black; */
     /* align-items: center; */
 }
 #subsbox>div{
     /* border: 2px solid black; */
     margin: auto;
+ 
 }
 
 #Subscription{
@@ -245,13 +250,13 @@ p{
 }
 .Subs1{
     width: 282px;
-    height: 498px;
+    height: 300px;
     padding: 100px;
     padding-left: 200px;
 }
 .Subs2{
     width: 282px;
-    height: 498px;
+    height: 300px;
     padding-right: 200px;
 }
 #Bags{
@@ -362,6 +367,7 @@ h4{
   /* padding: 20px; */
   width: 100%;
 font-family: "Poppins" sans-serif;
+ padding-top: 50px;
 }
 
 .product-container {
