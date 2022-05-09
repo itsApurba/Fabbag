@@ -5,13 +5,14 @@ function myfun(){
 
   var password = document.querySelector("#password").value
 
-  var arr = JSON.parse(localStorage.getItem("data"))
+  var arr = JSON.parse(localStorage.getItem("personData"))
 
   for(var i=0 ; i<arr.length ; i++)
   {
-    if(email == arr[i].eMail && password == arr[i].passWord)
+    if(email == arr[i].email && password == arr[i].password)
     {
       alert("Login sucsessfully")
+      window.location.href = "../index.html"
       return
     }
     else
