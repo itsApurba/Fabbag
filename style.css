@@ -23,33 +23,9 @@
 
 /* user section start */
 
-.action{
-    position: fixed;
-    top: 55px;
-    right: 30px;
 
-
-}
-.action .profile{
-    /* position:relative; */
-    width: 60px;
-    height: 60px;
-    overflow: hidden;
-    cursor: pointer;
-    
-}
-.action .profile i{
-    position: absolute;
-    top: 0;
-    left: 26px;
-    right: 10px;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-
-}
 .action .menu::before{
-    content: '';
+    content: "";
     position: absolute;
     top: -25px;
     right: 28px;
@@ -103,44 +79,50 @@
 /* navbar section */
 #navbar{
     height: 70px;
-    width: auto;
-      /* background-color: #333333;   */
-    justify-content: space-around;
+    width: 94%;
+      background-color: #ffffff;  
+    justify-content: space-between;
+    padding: 0 3%;
     align-items: center;
     display: flex;
     position: sticky;
     top: 0;
     z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 .subscribe{
     color: #e5b95f;
-    width: 180px;
-    height: 25px;
+    /* width: 180px; */
+    /* height: 25px; */
     font-size: 18px;
-    padding: 0px 17px 25px 0px;
-    position: relative;
+    /* padding: 0px 17px 25px 0px; */
+    /* position: relative;
     top: 14px;
-    right: 60px;
+    right: 60px; */
     font-weight: bold;
     cursor: pointer;
 }
-/* .subscribe:hover{
+.subscribe:hover{
     color: black;
-} */
+    transition: 200ms;
+}
 #navbar img{
     height: 50x;
     width: 188.56px;
     cursor: pointer;
 }
+.search{
+    display: flex;
+    align-items: center;
+}
+.search > *{
+    margin-right: 20px;
+}
 .search i{
     height: 16px;
     width: 16px;
     color: #e5b95f;
-    padding: 0x 10px;
     font-size: 16px;
-    margin: 20px;
-    position: relative;
-    left: 120px;   
     cursor: pointer;
 }
 
@@ -151,9 +133,7 @@
     height: 50%;
     margin:auto;
     margin-top: 50px;
-    /* justify-content: center; */
     align-items: center;
-    /* border: 2px solid black; */
     /* ........................... */
     position: relative;
 
@@ -210,6 +190,7 @@
     text-align: center;
     /* border: 1px solid black; */
     margin-bottom: 0px;
+    
 }
 .bagbox{
     display: flex;
@@ -231,6 +212,8 @@
 }
 p{
     text-align: center;
+ font-family: "Poppins";
+ font-size: 18px;
 }
 
 
@@ -378,7 +361,7 @@ h4{
   overflow: hidden;
   /* padding: 20px; */
   width: 100%;
-
+font-family: "Poppins" sans-serif;
 }
 
 .product-container {
@@ -423,7 +406,7 @@ h4{
   cursor: pointer;
   z-index: 8;
   padding-left: 100px;
-  margin-top: -250px;
+  margin-top: -200px;
 }
 
 .pre-btn {
@@ -487,7 +470,7 @@ h4{
 #testimonials{
     height: 100px;
     /* background-color: #e5b95f; */
-    background: url(img/Testimonials.webp);
+    background: url(Testimonials.webp);
     margin-top: 40px;
    
 }
@@ -508,7 +491,7 @@ h4{
     width: 100%;
     
     height: 370px;
-    background: url(img/Testimonials.webp);
+    background: url(Testimonials.webp);
     
 }
  
@@ -773,7 +756,7 @@ b{
 .detail,b,a,h5{
     color: #7d7d7d;
     text-decoration: none;
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
 }
 .newsletter{
    
@@ -782,6 +765,7 @@ b{
     height: 263px;
     font-size: 14px;
     color: #7d7d7d;
+
    
 }
 .newsletter span{
@@ -789,7 +773,8 @@ b{
     height: 17px;
     color: #7d7d7d;
     font-size: 12px;
-    font-family: "Poppins";
+    /* font-family: "Poppins"; */
+    margin-top: 50px;
     
 
 }
@@ -802,15 +787,21 @@ b{
     border-radius: 10px;
     color: white;
     background-color: #e5b95f;
+    text-decoration: none;
+    border-color:  #e5b95f;
    
 }
 #email{
     width: 245px;
     height: 40px;
-    margin: 0px 0px 0px -9px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* margin: 0px 0px 0px -9px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 1px 5px;
     border-radius: 10px;
     font-family: "Poppins";
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: white;
+    
    
 }
 .spam{
@@ -820,6 +811,11 @@ b{
     font-size: 12px;
     font-family: "Poppins";
   
+}
+#btn:hover{
+background-color: #000;
+border-color: #000;
+
 }
 
 
