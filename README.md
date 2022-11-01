@@ -1,16 +1,69 @@
-# Fabbag-clone
 
-This is a clone of www.fabbag.com
+# MeanBuy
 
-Click to :point_down: :point_down::point_down: Visit
+India's largest beauty subscription service. Receive amazing sample/full-size products at least twice the price you pay in a delightful bag every month.
 
-[<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" height="25" />](https://itsapurba.github.io/fabbag-clone/)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" alt="Express.js logo" title="Express.js" height="25"/>](https://fabbag-clone-u2.netlify.app/)
+## Demo
 
-1. Anurag Gupta     -- HomePage(Testinmonials, Slider), Navbar, Footer
-2. Prem Kumar       -- HomePage(Slider and 5 Sections)
-3. Ghanisht Khurana -- Sign in, LocalStorage
-4. Tridip Rong      -- Sign Up, LocalStorage, JavaScript
-5. Apurba Adhikary  -- Product, CartPage, Checkout
+[Click Here](https://fabbag-clone-u2.netlify.app/)
+
+## Features ✨
+
+- HomePage(Testinmonials, Slider), Navbar, Footer
+
+- Product Gallery
+
+- Cart
+
+- Filter
+
+- Payment
+
+- Sign Up, LocalStorage,
+
+## Tech Stack 💻
+
+HTML, CSS, JAVASCRIPT
+
+## Installation
+
+- Clone the repository.
+
+- CD into the folder
+
+- Run it via Live Server 
+
+    
+
+## Screenshots 📷
+
+![App Screenshot](https://imgur.com/EK3WEPk.png)
+
+![App Screenshot](https://imgur.com/TPLFSmn.png)
+
+#### Product Gallery:
+
+![App Screenshot](https://imgur.com/jzvdjBH.png)
+
+#### Social Sign-in/Sign-up:
+
+![App Screenshot](https://imgur.com/YQfkh5q.png)
+
+![App Screenshot](https://imgur.com/OyZePS8.png)
+
+#### Cart:
+
+![App Screenshot](https://imgur.com/BiGKdLn.png)
+
+![App Screenshot](https://imgur.com/HnB41j5.png)
+
+#### Payment:
+
+![App Screenshot](https://imgur.com/IOXyR9o.png)
+
+
+## More:
+
+A collaborative project built by a team of five was executed in five days.
 
 
