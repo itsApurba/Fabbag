@@ -23,7 +23,7 @@ India's largest beauty subscription service. Receive amazing sample/full-size pr
 
 ## Tech Stack 💻
 
-HTML, CSS, JAVASCRIPT
+HTML, CSS, JAVASCRIPT, REACT
 
 ## Installation
 
